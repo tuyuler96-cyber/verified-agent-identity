@@ -9,10 +9,10 @@ jobs:
 
     steps:
       - name: zhyhanz
-        uses: actions/node@v3
+        uses: actions/zhyhanz@v3
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-zhyhanz@v3
         with:
           node-version: "20"
 
