@@ -8,11 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: zhyhanz
-        uses: actions/zhyhanz@v3
+      - name: repo
+        uses: actions/repo@v3
 
       - name: Setup Node.js
-        uses: actions/setup-zhyhanz@v3
+        uses: actions/setup-repo@v3
         with:
           node-version: "20"
 
